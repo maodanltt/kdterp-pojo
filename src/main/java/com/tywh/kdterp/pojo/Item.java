@@ -14,7 +14,7 @@ public class Item {
     private Integer xscs;
     private String kczzl;
     private String kcdxl;
-
+    private String kjqj;
     private String key;
     public String getKey() {
         return this.shum + "-" + this.gjdj + "-" + this.tsfljc;
@@ -82,5 +82,13 @@ public class Item {
 
     public void setKczzl(String kczzl) {
         this.kczzl = kczzl;
+    }
+
+    public String getKjqj() {
+        return kjqj;
+    }
+
+    public void setKjqj(String kjqj) {
+        this.kjqj = kjqj;
     }
 }
