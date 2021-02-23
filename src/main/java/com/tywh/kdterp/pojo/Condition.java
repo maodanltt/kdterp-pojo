@@ -106,11 +106,11 @@ public class Condition {
 
     private List<String> fhzts = Arrays.asList("待发","已发");
 
-    private List<String> tsfljcRemove = Arrays.asList("'%联考%'","'日历%'","'赠品%'","'宣传品%'");
+    private List<String> tsfljcRemove = Arrays.asList("%联考%","日历%","赠品%","宣传品%");
 
     private String khbhRemove = "2000000747";
 
-    private String sxhRemove = "'W%'";
+    private String sxhRemove = "W%";
 
     private String kwbh = "00HG";
 
